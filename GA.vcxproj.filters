@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="rhostring.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="objeto.cpp" />
+    <ClCompile Include="Bezier.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rhostring.hpp" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="loader.h" />
+    <ClInclude Include="Mesh2.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="objeto.h" />
+    <ClInclude Include="Bezier.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{e9bad5fe-a8bc-4072-9346-75049c3e47b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\transformations.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="shaders\transformations.vs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="shaders\transformations-color.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="shaders\transformations-color.vs">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="scene.md">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="scene1.md">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
